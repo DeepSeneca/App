@@ -45,7 +45,8 @@ A important key point is that the handling of the app should be as less intrusiv
 means in the ideal case that the the user doesn't have to interact at all. The minimal solution 
 at the time is that the user starts and stops the task, gives a score to the just finished task and 
 in case of a longer period of time of abscense the activity which the user has done before starting 
-a new task. Feedback is given by voice output over the smartphone. I am currently working with a 
+a new task. A lot of other information is collected without the need of user input by the capabilities
+of the smartphone. Feedback is given by voice output over the smartphone. I am currently working with a 
 vibrating wristband to replace the voice feedback by haptic feedback over vibration motors in the 
 band. See below for more information about the wristband.
 
