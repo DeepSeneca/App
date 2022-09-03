@@ -15,7 +15,7 @@ productive and/or easy to do depending on the time of day.
 If I play the piano in the evening for instance, the rehearsal and improvement of my play are much
 greater in contrast to when I would play during the day. Likewise doing pyhsical exercises during
 my morning seems much more productive and fun. These are just 2 tasks which could be easily
-planned an managed (just do sports in the morning and music in the evening). But as soon as the
+planned and managed (just do sports in the morning and music in the evening). But as soon as the
 number of tasks rises it gets more and more complicated. My personal schedule each day at the moment
 consists of 48 different tasks. And these tasks contain variable tasks which may be totally different 
 in nature each day. And this even doesn't account for daily surprises and the schedule of other people
@@ -23,7 +23,7 @@ interfering with my own schedule.
 
 To get more insight in the distribution of my day I started 3 years ago recording each task of my 
 day with a simple Android app which is the foundation of the app you can find in this repository 
-today. I had done recording long before on paper and with the condensed wisdom of a lot of books 
+soon. I had done recording long before on paper and with the condensed wisdom of a lot of books 
 about organizational theory, motivational theory, habit forming, learning theory and various other 
 fields. The app helped me to gain more insight about my daily routine and I could gather data of about 
 3 years to work with.
