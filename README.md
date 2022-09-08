@@ -36,28 +36,29 @@ your personal day.
 
 ![testing markdown](system_arch.svg)
 
-At the moment the measurement of feedback comes from the user which rates the just finsihed task with a
+At the moment the measurement of feedback comes from the user which rates the just finished task with a
 number between 1 and 10. One key idea is that this rating is not a fixed mapping to measure
 producitivty for each given task. The number should represent a personal view about the task just
 finished. This could be things like ease of completion, productivity or fun doing the task. Or it
 could be a combination of these factors. The interpretation should come intuitively from the user
-in order to allow a personalized bias and goal instead of a optimization to time for example.
+in order to allow a personalized bias and goal instead of a fixed optimization regarding time for 
+example.
 
 An important key point is that the handling of the app should be as less intrusive as possible. This
 means in the ideal case that the the user doesn't have to interact at all. The minimal solution 
 at the time is that the user starts and stops the task, gives a score to the just finished task and 
-in case of a longer period of time of abscense the activity which the user has done before starting 
+in case of a longer period of abscense between the activity which the user has done before starting 
 a new task. A lot of other information is collected without the need of user input by the capabilities
-of modern smartphones. Feedback is given by voice output over the smartphone. I am currently working 
-with a vibrating wristband to replace the voice feedback by haptic feedback over vibration motors in 
-the band. See below for more information about the wristband.
+of modern smartphones. Feedback to the user is given by voice output over the smartphone. I am 
+currently working with a vibrating wristband to replace the voice feedback by haptic feedback over 
+vibration motors in the band. See below for more information about the wristband.
 
 The collected data is fed into a neural network in order to train a model which finds 'optimal' 
 sequences that represent an indivual day based on the users previous interactions. Each additional task
 which has been finished during this daily sequence influences the generation of a new recommendation.
 This depends on if the user followed the sequence or not. The training process does not happen in the 
-app itself but on a local computer due to the high computational costs. The trained model is then used 
-on the app to predict the next 'optimal' task given input parameters by the app (e.g. time of day, 
+app itself but on a local machine due to the high computational costs. The trained model is then used 
+by the app to predict the next 'optimal' task given input parameters by the app (e.g. time of day, 
 day of week, type of task .. etc). The app advises proactively new tasks as a good advisor should and 
 not as a reaction to some user interaction.
 
