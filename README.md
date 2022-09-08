@@ -5,6 +5,10 @@ Optionally other devices can be connected to the app. Currently I am working on 
 wristband which replaces the audiovisual communication with the user by substituting speech
 and GUI by haptic feedback.
 
+This project does not contain the Seneca AI. You can find the project for 
+this [here](https://github.com/DeepSeneca/SenecaAI/README.md).
+
+
 # The problem and the idea
 
 Usually I have a fully packed schedule each day. This is the result of being interested in too
@@ -21,8 +25,8 @@ consists of 48 different tasks. And these tasks contain variable tasks which may
 in nature each day. And this even doesn't account for daily surprises and the schedule of other people
 which may make adjustments necessary.
 
-To get more insight in the distribution of my day I started 3 years ago recording each task of my 
-day with a simple Android app which is the foundation of the app you can find in this repository 
+To get more insight in the distribution of my day I started recording each task of my day 3 years 
+ago using a simple Android app which is the foundation of the app you can find in this repository 
 soon. I had done recording long before on paper and with the condensed wisdom of a lot of books 
 about organizational theory, motivational theory, habit forming, learning theory and various other 
 fields. The app helped me to gain more insight about my daily routine and I could gather data of about 
