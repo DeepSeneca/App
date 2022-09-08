@@ -34,6 +34,8 @@ time of day, type of previously finished task, weather .. etc, the next "good" t
 recommended by the app and therefore act as your personal advisor which is highly customized to
 your personal day.
 
+![testing markdown](system_arch.svg)
+
 At the moment the measurement of feedback comes from the user which rates the just finsihed task with a
 number between 1 and 10. One key idea is that this rating is not a fixed mapping to measure
 producitivty for each given task. The number should represent a personal view about the task just
@@ -112,4 +114,3 @@ Here comes an insightful story soon.
 
 # Interesting reads
 
-![testing markdown](testimage.svg)
