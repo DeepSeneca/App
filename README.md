@@ -101,8 +101,8 @@ customized level.
 Inspired by a TED-Talk about the creation of new senses I decided to experiment with a more direct way
 of feedback to the user. In order to achieve that I am using a LILYGO T-WATCH-2020. This is a freely
 programmable Smart Watch which most important contains vibration motors. These vibrators are used to
-give haptic feedback. Instead of talked to by the smartphone the use can 'feel' what Seneca wants
-from him next. Information is encoded in vibrational patterns.
+give haptic feedback. Instead of talked to by the smartphone the user can 'sense' what Seneca will
+suggest next. Information is encoded in vibrational patterns.
 
 This leads to an almost invisible assistant which is tightly coupled to your body without any need
 for surgery.
