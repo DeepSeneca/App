@@ -6,7 +6,7 @@ wristband which replaces the audiovisual communication with the user by substitu
 and GUI by haptic feedback.
 
 This project does not contain the Seneca AI. You can find the project for 
-this [here](https://github.com/DeepSeneca/SenecaAI/README.md).
+this [here](https://github.com/DeepSeneca/SenecaAI).
 
 
 # The problem and the idea
