@@ -64,7 +64,62 @@ not as a reaction to some user interaction.
 
 # Privacy considerations
 
-Coming soon.
+I am very well aware that if you input the data for your whole day you entrust important and valuable
+data to the app. In order to be able to process the data it is however not necessary to know the content
+or meaning. Therefore the naming of a task is only show the user the relevant information. The actual
+name and meaning does not matter for the training of the Seneca AI. Task namings will be converted to
+numbers which are specific to the app of the user.
+
+There may be the strong possbility to create a fingerprint of the data of one user. The way the data is
+stored and labeled should at least proccess the data pseudonymously. Further privacy considerations will
+be incorporated.
+
+# Features of the app
+
+## Main screen
+
+Soon.
+
+## Task and routine management
+
+The user customizes a daily routine which consists of tasks. The routine will be customizied usually only
+once. Each day you start this routine will be presented to you. 
+
+Each task can have 3 different aditional properties or combinations of these properties.
+
+### Static tasks
+
+These are the things you do every day. They have no special semantic and can be started, stopped and
+rated.
+	
+### Variable tasks
+
+These are tasks which represent a time-slot of your day which may be different every day and should be
+parameterized accordingly when you plan ahead. 
+	
+### Timed tasks
+
+Timed task will notify you if the time you set for this task is over. This is heavily inspired by the
+Pomodoro technique which cut's work in evenly distributed work units that are timed. The idea behind
+the Pomodoro technique is to maintain focus an energy longer if you do bursts of work followed
+by small breaks.
+
+### Consecutive tasks
+
+Sometimes you don't want to be disturbed for a period of time. You can chain serveral tasks together
+that will be started and stopped automatically for you.
+
+## Advisor
+
+This is the core functionality of the app.
+
+## Goal achievement and rewards
+
+It is helpful to define goals you want to achieve with your work. The app let's you define goals which
+can be expressed by the tasks. An example for this would be to do physical exercise each day for at 
+least 1 hour. This goal could be composed of 2 consecutive timed tasks each 30 minutes long. You will 
+be notified and rewarded if you did achieve to complete the according tasks.
+
 
 # Feedback
 
